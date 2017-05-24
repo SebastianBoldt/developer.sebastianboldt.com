@@ -29,7 +29,7 @@ try config.setup()
 config.addConfigurable(log: { config in return AllCapsLogger(config: config) }, name: "all-caps")
 
 let drop = try Droplet(config)
-drop.setupRoutes()
+try drop.setupRoutes()
 
 /*
  The environment affects Config and Logging. The environment is development by default. To change it, pass the --env= flag as an argument.

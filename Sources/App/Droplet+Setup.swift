@@ -10,8 +10,8 @@ import Foundation
 import Vapor
 
 public extension Droplet {
-    public func setupRoutes() {
-        let mainController = MainController(droplet: self)
-        self.get(handler: mainController.showIndexPage)
+    public func setupRoutes() throws {
+        let routes = StaticRoutes(view)
+        try collection(routes)
     }
 }

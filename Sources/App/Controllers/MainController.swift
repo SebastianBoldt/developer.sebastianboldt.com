@@ -10,16 +10,15 @@ import Foundation
 import Vapor
 import HTTP
 
-public protocol DropletProvider {
-    var droplet: Droplet { get set }
-    init (droplet: Droplet)
+public protocol ViewRenderProvider {
+    var view: ViewRenderer { get set }
+    init (view: ViewRenderer)
 }
 
-public final class MainController: DropletProvider {
-    public var droplet: Droplet
-    
-    public init(droplet: Droplet) {
-        self.droplet = droplet
+public final class StaticPagesController: ViewRenderProvider {
+    public var view: ViewRenderer
+    public init(view: ViewRenderer) {
+        self.view = view
     }
     
     public func showIndexPage(_ req: Request) throws -> ResponseRepresentable {
@@ -27,6 +26,6 @@ public final class MainController: DropletProvider {
             throw Abort(.badRequest)
         }
         
-        return try droplet.view.make("index", ["message":"coming soon","name": name])
+        return try view.make("index", ["message":"coming soon","name": name])
     }
 }
