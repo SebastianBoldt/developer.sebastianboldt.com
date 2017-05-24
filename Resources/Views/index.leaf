@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>sebastianboldt.com</h1>
+        <p>#(message)</p>
+        <p> Hello #(name) </p>
+        #raw() { # # # # # # # }
+    </body>
+</html>

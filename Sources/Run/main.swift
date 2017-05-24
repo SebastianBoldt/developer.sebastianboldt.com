@@ -1,4 +1,6 @@
 import App
+import Vapor
+import LeafProvider
 
 /// We have isolated all of our App's logic into
 /// the App module because it makes our app
@@ -21,17 +23,18 @@ import App
  The Droplet is a service container that gives you access to many of Vapor's facilities. 
  It is responsible for registering routes, starting the server, appending middleware, and more. */
 
+
 let config = try Config()
 try config.setup()
-
-/* 
- The environment affects Config and Logging. The environment is development by default. To change it, pass the --env= flag as an argument. 
-*/
-
-print("You are currently running on", config.environment.description.uppercased())
+config.addConfigurable(log: { config in return AllCapsLogger(config: config) }, name: "all-caps")
 
 let drop = try Droplet(config)
-try drop.setup()
+drop.setupRoutes()
+
+/*
+ The environment affects Config and Logging. The environment is development by default. To change it, pass the --env= flag as an argument.
+ */
+print("You are currently running on", drop.config.environment.description.uppercased())
 
 try drop.run()
 
