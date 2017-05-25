@@ -26,7 +26,7 @@ import LeafProvider
 
 let config = try Config()
 try config.setup()
-config.addConfigurable(log: { config in return AllCapsLogger(config: config) }, name: "all-caps")
+config.addConfigurable(log: AllCapsLogger.init, name: "all-caps")
 
 let drop = try Droplet(config)
 try drop.setupRoutes()
