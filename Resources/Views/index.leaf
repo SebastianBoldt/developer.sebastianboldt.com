@@ -56,7 +56,7 @@
             <div class="separator"></div>
 
             <div class="blog">
-                <h4> Blog </h4>
+                <h4> blog </h4>
                 <p> <a href="https://medium.com/ios-os-x-development/learn-and-master-%EF%B8%8F-the-basics-of-rxswift-in-10-minutes-818ea6e0a05b"> Learn and Master the Basics of RxSwift in 10 Minutes </a> </p>
                 <p> <a href="https://medium.com/ios-os-x-development/my-first-cocoapod-is-here-jelly-1-0-71fefa3be0f4">My first Cocoapod is here  — Jelly 1.0 </a></p>
                 <p> <a href="https://medium.com/ios-os-x-development/ios-code-signing-provisioning-in-a-nutshell-d5b247760bef">iOS Code Signing and Provisioning in a Nutshell </a></p>
@@ -68,7 +68,7 @@
             <div class="separator"></div>
 
             <div class="work">
-                <h4> Work Experience </h4>
+                <h4> work experience </h4>
                 <div class="row">
                     <div class="three columns"> 04/2016 - today </div>
                     <div class="nine columns"> Software Engineer Mobile Applications (iOS) @ Immowelt </div>
@@ -94,7 +94,7 @@
             <div class="separator"></div>
 
             <div class="education">
-                <h4> Education </h4>
+                <h4> education </h4>
                 <p> Multimedia Engineering - Master's degree @ Hochschule Wismar <p>
                 <p> Multimedia Engineering - Bachelor's degree @ Hochschule Wismar <p>
                 <p id="edu-description"> Multimedia Engineering deals with the basics of microprocessor technology and electronics, image processing and computer graphics , audio and voice technologies, system and hardware dependent programming, networking and communications technology and application- and web-programming. </p>
