@@ -20,17 +20,17 @@
                 <div style="margin-top:3em">
                     Hi, my name is Sebastian Boldt.
                     I am a web and mobile software developer, dj and producer based in Hamburg.
-                    I have a passion for pizza und movies. I love skateboarding, creativity and electronic music. Did i mention that i love Pizza.
+                    I have a passion for pizza und movies. I love skateboarding, creativity and electronic music. Did I mention that I love Pizza.
                 </div>
             </div>
 
             <div class="destiny row">
-                <div style="text-align: center" class= "six columns"> <a href="http://sebastianboldt.com/developer"> i love programming. </a>  </div>
-                <div style="text-align: center" class= "six columns"> <a href="http://sebastianboldt.com/music"> i make music. </a> </div>
+                <div style="text-align: center" class= "six columns"> <a href="http://sebastianboldt.com/developer"> I love programming. </a>  </div>
+                <div style="text-align: center" class= "six columns"> <a href="http://sebastianboldt.com/music"> I make music. </a> </div>
             </div>
 
             <div class="footer">
-                made in hamburg by sebastian boldt ©2017 - written in Swift using Vapor 2.0
+                made in Hamburg by sebastian boldt ©2017 - written in Swift using Vapor 2.0
             </div>
 
         </div>
