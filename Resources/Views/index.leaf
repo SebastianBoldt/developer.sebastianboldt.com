@@ -14,102 +14,31 @@
     </head>
     <body>
         <div class="container">
-            
+
             <div class="header">
-                <h2 class="main-header">sebastian boldt</h2>
-                
-                <ul class="social-buttons">
-                    <li> <a href="https://github.com/SebastianBoldt"> github </a> </li>
-                    <li> - </li>
-                    <li> <a href="https://www.linkedin.com/in/sebastian-boldt-9b465261/"> linkedIn </a> </li>
-                    <li> - </li>
-                    <li> <a href="https://www.xing.com/profile/Sebastian_Boldt8"> xing </a> </li>
-                    <li> - </li>
-                    <li> <a href="https://stackoverflow.com/users/1448340/sebastian-boldt"> stackoverflow </a> </li>
-                </ul>
-                
-                <div>
-                    I am a web and mobile software architect and developer specializing in iOS. Passionate about creating awesome user experiences, designing beautiful user interfaces, and writing maintainable, structured, and best-practice orientated code. Continuously trying to improve skills and learn new technologies.
+                <h3 class="main-header">hello world.</h3>
+                <div style="margin-top:3em">
+                    Hi, my name is Sebastian Boldt.
+                    I am a web and mobile software developer, dj and producer based in Hamburg.
+                    I have a passion for pizza und movies. I love skateboarding, creativity and electronic music. Did i mention that i love Pizza.
                 </div>
             </div>
-                        
-            <!-- Put this into a separate model that can be modified using a custom API -->
-            <div class="skills">
-                <span>Mobile Development</span>
-                <span>iOS</span>
-                <span>Swift</span>
-                <span>Objective-C</span>
-                <span>Software Engineering</span>
-                <span>Multithreaded Programming</span>
-                <span>Xcode</span>
-                <span>Code Signing and Provisioning</span>
-                <span>Cocoapods</span>
-                <span>Carthage</span>
-                <span>Fastlane</span>
-                <span>Git</span>
-                <span>Gitflow Workflow</span>
-                <span>RxSwift</span>
-                <span>Realm</span>
-                <span>Vapor</span>
+
+            <div class="destiny row">
+                <div style="text-align: center" class= "six columns"> <a href="http://sebastianboldt.com/developer"> i love programming. </a>  </div>
+                <div style="text-align: center" class= "six columns"> <a href="http://sebastianboldt.com/music"> i make music. </a> </div>
             </div>
 
-            <div class="separator"></div>
-
-            <div class="blog">
-                <h4> blog </h4>
-                <p> <a href="https://medium.com/ios-os-x-development/learn-and-master-%EF%B8%8F-the-basics-of-rxswift-in-10-minutes-818ea6e0a05b"> Learn and Master the Basics of RxSwift in 10 Minutes </a> </p>
-                <p> <a href="https://medium.com/ios-os-x-development/my-first-cocoapod-is-here-jelly-1-0-71fefa3be0f4">My first Cocoapod is here  — Jelly 1.0 </a></p>
-                <p> <a href="https://medium.com/ios-os-x-development/ios-code-signing-provisioning-in-a-nutshell-d5b247760bef">iOS Code Signing and Provisioning in a Nutshell </a></p>
-                <p> <a href="https://medium.com/ios-os-x-development/my-ios-development-toolkit-2016-ba7601b68085">My iOS Development Toolkit 2017 </a></p>
-                <p> <a href="https://medium.com/ios-os-x-development/swift-optionals-78dafaa53f3">Swift! Optionals? </a></p>
-
-            </div>
-            
-            <div class="separator"></div>
-
-            <div class="work">
-                <h4> work experience </h4>
-                <div class="row">
-                    <div class="three columns"> 04/2016 - today </div>
-                    <div class="nine columns"> Software Engineer Mobile Applications (iOS) @ Immowelt </div>
-                </div>
-                <div class="row">
-                    <div class="three columns"> 02/2015 - 03/2016 </div>
-                    <div class="nine columns"> Mobile Application Developer (iOS) @ Fashionfreax </div>
-                </div>
-                <div class="row">
-                    <div class="three columns"> 08/2013 - 10/2014 </div>
-                    <div class="nine columns"> Software Developer (C++ / QT) @ IPT Wismar </div>
-                </div>
-                <div class="row">
-                    <div class="three columns"> 03/2012 - 08/2012 </div>
-                    <div class="nine columns"> Internship @ BringWasMit </div>
-                </div>
-                <div class="row">
-                    <div class="three columns"> 01/2012 - 06/2012 </div>
-                    <div class="nine columns"> Student associate @ Hochschule Wismar </div>
-                </div>
-            </div>
-            
-            <div class="separator"></div>
-
-            <div class="education">
-                <h4> education </h4>
-                <p> Multimedia Engineering - Master's degree @ Hochschule Wismar <p>
-                <p> Multimedia Engineering - Bachelor's degree @ Hochschule Wismar <p>
-                <p id="edu-description"> Multimedia Engineering deals with the basics of microprocessor technology and electronics, image processing and computer graphics , audio and voice technologies, system and hardware dependent programming, networking and communications technology and application- and web-programming. </p>
-            </div>
-            
             <div class="footer">
                 made in hamburg by sebastian boldt ©2017 - written in Swift using Vapor 2.0
             </div>
-            
+
         </div>
-        
+
         <!-- make reveal calls last -->
         <script>
             sr.reveal('.main-header');
         </script>
-        
+
     </body>
 </html>

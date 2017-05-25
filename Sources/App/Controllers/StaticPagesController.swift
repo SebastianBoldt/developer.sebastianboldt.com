@@ -24,4 +24,12 @@ public final class StaticPagesController: ViewRenderProvider {
     public func showIndexPage(_ req: Request) throws -> ResponseRepresentable {
         return try view.make("index")
     }
+    
+    public func showMusicPage(_ req: Request) throws -> ResponseRepresentable {
+        return try view.make("music")
+    }
+    
+    public func showDeveloperPage(_ req: Request) throws -> ResponseRepresentable {
+        return try view.make("developer")
+    }
 }

@@ -70,6 +70,10 @@ h2,h3,h4 {
     text-align: left;
 }
 
+.destiny columns a{
+    text-decoration: none;
+}
+
 .social-buttons {
     list-style-type: none;
     text-align: center;
