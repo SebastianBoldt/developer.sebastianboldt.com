@@ -80,7 +80,13 @@ h2,h3,h4 {
     display: inline;
 }
 
-.blog {
+.blog p a {
+    text-decoration: none;
+    color: #777;
+}
+
+.blog p a:hover {
+    color: #AAA;
 }
 
 .blog p, .education p {
