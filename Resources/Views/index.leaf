@@ -1,9 +1,115 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Sebastian Boldt - Software Developer and Musician</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/normalize.css">
+        <link rel="stylesheet" href="/styles/skeleton.css">
+        <link rel="stylesheet" href="/styles/styles.css">
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script>
+            window.sr = ScrollReveal();
+        </script>
+    </head>
     <body>
-        <h1>sebastianboldt.com</h1>
-        <p>#(message)</p>
-        <p> Hello #(name) </p>
-        #raw() { # # # # # # # }
+        <div class="container">
+            
+            <div class="header">
+                <h2 class="main-header">sebastian boldt</h2>
+                
+                <ul class="social-buttons">
+                    <li> <a href="https://github.com/SebastianBoldt"> github </a> </li>
+                    <li> - </li>
+                    <li> <a href="https://www.linkedin.com/in/sebastian-boldt-9b465261/"> linkedIn </a> </li>
+                    <li> - </li>
+                    <li> <a href="https://www.xing.com/profile/Sebastian_Boldt8"> xing </a> </li>
+                    <li> - </li>
+                    <li> <a href="https://stackoverflow.com/users/1448340/sebastian-boldt"> stackoverflow </a> </li>
+                </ul>
+                
+                <div>
+                    I am a web and mobile software architect and developer specializing in iOS. Passionate about creating awesome user experiences, designing beautiful user interfaces, and writing maintainable, structured, and best-practice orientated code. Continuously trying to improve skills and learn new technologies.
+                </div>
+            </div>
+                        
+            <!-- Put this into a separate model that can be modified using a custom API -->
+            <div class="skills">
+                <span>Mobile Development</span>
+                <span>iOS</span>
+                <span>Swift</span>
+                <span>Objective-C</span>
+                <span>Software Engineering</span>
+                <span>Multithreaded Programming</span>
+                <span>Xcode</span>
+                <span>Code Signing and Provisioning</span>
+                <span>Cocoapods</span>
+                <span>Carthage</span>
+                <span>Fastlane</span>
+                <span>Git</span>
+                <span>Gitflow Workflow</span>
+                <span>RxSwift</span>
+                <span>Realm</span>
+                <span>Vapor</span>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="blog">
+                <h4> Blog </h4>
+                <p> Learn and Master the Basics of RxSwift in 10 Minutes </p>
+                <p> My first Cocoapod is here  — Jelly 1.0 </p>
+                <p> iOS Code Signing and Provisioning in a Nutshell </p>
+                <p> My iOS Development Toolkit 2017 </p>
+                <p> Swift! Optionals? </p>
+
+            </div>
+            
+            <div class="separator"></div>
+
+            <div class="work">
+                <h4> Work Experience </h4>
+                <div class="row">
+                    <div class="three columns"> 04/2016 - today </div>
+                    <div class="nine columns"> Software Engineer Mobile Applications (iOS) @ Immowelt </div>
+                </div>
+                <div class="row">
+                    <div class="three columns"> 02/2015 - 03/2016 </div>
+                    <div class="nine columns"> Mobile Application Developer (iOS) @ Fashionfreax </div>
+                </div>
+                <div class="row">
+                    <div class="three columns"> 08/2013 - 10/2014 </div>
+                    <div class="nine columns"> Software Developer (C++ / QT) @ IPT Wismar </div>
+                </div>
+                <div class="row">
+                    <div class="three columns"> 03/2012 - 08/2012 </div>
+                    <div class="nine columns"> Internship @ BringWasMit </div>
+                </div>
+                <div class="row">
+                    <div class="three columns"> 01/2012 - 06/2012 </div>
+                    <div class="nine columns"> Student associate @ Hochschule Wismar </div>
+                </div>
+            </div>
+            
+            <div class="separator"></div>
+
+            <div class="education">
+                <h4> Education </h4>
+                <p> Multimedia Engineering - Master's degree @ Hochschule Wismar <p>
+                <p> Multimedia Engineering - Bachelor's degree @ Hochschule Wismar <p>
+                <p id="edu-description"> Multimedia Engineering deals with the basics of microprocessor technology and electronics, image processing and computer graphics , audio and voice technologies, system and hardware dependent programming, networking and communications technology and application- and web-programming. </p>
+            </div>
+            
+            <div class="footer">
+                made in hamburg by sebastian boldt ©2017 - written in Swift using Vapor 2.0
+            </div>
+            
+        </div>
+        
+        <!-- make reveal calls last -->
+        <script>
+            sr.reveal('.main-header');
+        </script>
+        
     </body>
 </html>

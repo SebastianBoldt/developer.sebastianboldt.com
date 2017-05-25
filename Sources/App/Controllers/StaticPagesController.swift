@@ -22,10 +22,6 @@ public final class StaticPagesController: ViewRenderProvider {
     }
     
     public func showIndexPage(_ req: Request) throws -> ResponseRepresentable {
-        guard let name = req.data["name"]?.string else {
-            throw Abort(.badRequest)
-        }
-        
-        return try view.make("index", ["message":"coming soon","name": name])
+        return try view.make("index")
     }
 }
