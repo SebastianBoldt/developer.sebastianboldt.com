@@ -24,13 +24,15 @@ final public class User: Model, ResponseRepresentable, TokenAuthenticatable {
     // to authenticate this user
     public typealias TokenType = AccessToken
     
+    public static let foreignIdKey = "user_id"
+
     public let storage = Storage()
 
-    var username: String
-    var email: String
-    var password: String
+    public var username: String
+    public var email: String
+    public var password: String
     
-    init(id: Identifier,username: String, email: String, password: String) {
+    public init(id: Identifier? = nil ,username: String, email: String, password: String) {
         self.username = username
         self.email = email
         self.password = password
@@ -82,8 +84,11 @@ extension User: Preparation {
             skills.string("username")
             skills.string("password")
             skills.string("email")
-
         }
+        
+        // Create a default user, you can change this user and give it an new password after database was prepared
+        let user = User(username: "admin", email: "admin@example.de", password: "password")
+        try database.seed([user])        
     }
     
     public static func revert(_ database: Database) throws {
@@ -94,5 +99,11 @@ extension User: Preparation {
 extension Request {
     func user() throws -> User {
         return try auth.assertAuthenticated()
+    }
+}
+
+extension User {
+    func accessToken() throws -> AccessToken? {
+        return try children().first()
     }
 }

@@ -15,7 +15,7 @@ final public class Skill: Model, ResponseRepresentable {
     
     public let storage = Storage()
     
-    init(id: Identifier,description: String) {
+    init(id: Identifier? = nil ,description: String) {
         self.description = description
         self.id = id
     }

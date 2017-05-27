@@ -29,7 +29,6 @@ import AuthProvider
 let config = try Config()
 
 try config.setup()
-config.addConfigurable(log: AllCapsLogger.init, name: "all-caps")
 
 let drop = try Droplet(config)
 try drop.setupRoutes()

@@ -30,6 +30,7 @@ public final class StaticPagesController: ViewRenderProvider {
     }
     
     public func showDeveloperPage(_ req: Request) throws -> ResponseRepresentable {
-        return try view.make("developer")
+        let skills = try Skill.all()
+        return try view.make("developer", ["skills": skills])
     }
 }
