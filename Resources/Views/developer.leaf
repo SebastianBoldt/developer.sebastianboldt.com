@@ -35,22 +35,9 @@
 
             <!-- Put this into a separate model that can be modified using a custom API -->
             <div class="skills">
-                <span>Mobile Development</span>
-                <span>iOS</span>
-                <span>Swift</span>
-                <span>Objective-C</span>
-                <span>Software Engineering</span>
-                <span>Multithreaded Programming</span>
-                <span>Xcode</span>
-                <span>Code Signing and Provisioning</span>
-                <span>Cocoapods</span>
-                <span>Carthage</span>
-                <span>Fastlane</span>
-                <span>Git</span>
-                <span>Gitflow Workflow</span>
-                <span>RxSwift</span>
-                <span>Realm</span>
-                <span>Vapor</span>
+                #loop(skills, "skill") {
+                    <span> #(skill.description) </span>
+                }
             </div>
 
             <div class="separator"></div>

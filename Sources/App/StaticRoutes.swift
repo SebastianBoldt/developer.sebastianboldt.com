@@ -9,9 +9,9 @@
 import Foundation
 import Vapor
 
-class StaticRoutes: RouteCollection {
-    let view: ViewRenderer
-    init(_ view: ViewRenderer) {
+class StaticRoutes: RouteCollection, ViewRenderProvider {
+    var view: ViewRenderer
+    required init(view: ViewRenderer) {
         self.view = view
     }
     
