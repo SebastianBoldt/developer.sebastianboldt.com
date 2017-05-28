@@ -28,5 +28,6 @@ class APIRoutes: RouteCollection, ViewRenderProvider {
         
         v1.grouped(TokenAuthenticationMiddleware(User.self)).resource("skills", skillsController)
         v1.post("authtoken", handler: authController.getAuthenticationToken)
+        v1.grouped(TokenAuthenticationMiddleware(User.self)).post("changepassword", handler: authController.changePassword)
     }
 }

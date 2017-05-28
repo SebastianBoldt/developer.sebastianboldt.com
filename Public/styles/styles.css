@@ -12,6 +12,15 @@ h2,h3,h4 {
     margin-bottom: 30px;
 }
 
+.loginform {
+    text-align:center;
+    display: inline-block;
+}
+
+.loginform .row {
+    width: 300px;
+}
+
 #edu-description {
     margin-top: 15px;
 }
@@ -46,6 +55,7 @@ h2,h3,h4 {
     max-width: 800px;
     margin-top: 7em;
     margin-bottom: 10em;
+    text-align: center;
 }
 
 .main-header {

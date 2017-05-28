@@ -98,7 +98,7 @@ extension User: Preparation {
 
 extension Request {
     func user() throws -> User {
-        return try auth.assertAuthenticated()
+        return try auth.assertAuthenticated(User.self)
     }
 }
 

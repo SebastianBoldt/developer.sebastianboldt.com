@@ -58,7 +58,31 @@ extension Skill: Preparation {
             skills.id()
             skills.string("description")
         }
+        
+        let skillString = ["Mobile Development",
+                           "iOS",
+                           "Swift",
+                           "Objective-C",
+                           "Software Engineering",
+                           "Multithreaded Programming",
+                           "Xcode",
+                           "Code Signing and Provisioning",
+                           "Cocoapods",
+                           "Carthage",
+                           "Fastlane",
+                           "Git",
+                           "Gitflow Workflow",
+                           "RxSwift","Realm","Vapor"]
+        
+        var skills = [Skill]()
+        
+        for skill in skillString {
+            skills.append(Skill(description: skill))
+        }
+        
+        try database.seed(skills)
     }
+    
     
     public static func revert(_ database: Database) throws {
         try database.delete(self)

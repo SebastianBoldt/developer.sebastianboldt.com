@@ -16,9 +16,12 @@ class StaticRoutes: RouteCollection, ViewRenderProvider {
     }
     
     func build(_ builder: RouteBuilder) throws {
-        let staticPagesController = StaticPagesController(view: view)
+        let staticPagesController = StaticPagesController(view: view)        
         builder.get( handler: staticPagesController.showIndexPage)
         builder.get("developer" ,handler: staticPagesController.showDeveloperPage)
         builder.get("music" ,handler: staticPagesController.showMusicPage)
+        
+        // A Web-Admin area will come later, currently we are just using the api to change the Website
+        //builder.get("admin", handler: authController.showLoginPage)
     }
 }
