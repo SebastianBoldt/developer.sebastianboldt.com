@@ -48,6 +48,7 @@ extension SkillController {
     }
     
     public func destroy(_ request: Request, skill: Skill) throws -> ResponseRepresentable {
+        try skill.delete()
         return Response.init(status: .ok)
     }
     
