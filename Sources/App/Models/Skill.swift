@@ -59,24 +59,9 @@ extension Skill: Preparation {
             skills.string("description")
         }
         
-        let skillString = ["Mobile Development",
-                           "iOS",
-                           "Swift",
-                           "Objective-C",
-                           "Software Engineering",
-                           "Multithreaded Programming",
-                           "Xcode",
-                           "Code Signing and Provisioning",
-                           "Cocoapods",
-                           "Carthage",
-                           "Fastlane",
-                           "Git",
-                           "Gitflow Workflow",
-                           "RxSwift","Realm","Vapor"]
-        
         var skills = [Skill]()
         
-        for skill in skillString {
+        for skill in Constants.Seeds.skills {
             skills.append(Skill(description: skill))
         }
         

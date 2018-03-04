@@ -27,7 +27,7 @@ public final class SkillController: ResourceRepresentable, ViewRenderProvider {
 extension SkillController {
     
     public func index(_ request: Request) throws -> ResponseRepresentable {
-        return try Skill.all().makeJSON()
+        return try Skill.all().reversed().makeJSON()
     }
     
     public func show(_ request: Request, skill: Skill) throws -> ResponseRepresentable {

@@ -36,7 +36,7 @@
             <!-- Put this into a separate model that can be modified using a custom API -->
             <div class="skills">
                 #loop(skills, "skill") {
-                    <span> #(skill.description) </span>
+                    <span class="tag"> #(skill.description) </span>
                 }
             </div>
 
@@ -86,9 +86,18 @@
                 <p> Multimedia Engineering - Bachelor's degree @ Hochschule Wismar <p>
                 <p id="edu-description"> Multimedia Engineering deals with the basics of microprocessor technology and electronics, image processing and computer graphics , audio and voice technologies, system and hardware dependent programming, networking and communications technology and application- and web-programming. </p>
             </div>
+            
+            <div class="separator"></div>
+            
+            <div class="interests">
+                <h4> interests </h4>
+                #loop(skills, "skill") {
+                    <span class="tag"> #(skill.description) </span>
+                }
+            </div>
 
             <div class="footer">
-                made in hamburg by sebastian boldt ©2017 - written in Swift using Vapor 2.0
+                made in hamburg by sebastian boldt ©2018 - written in Swift using Vapor 2.0
             </div>
 
         </div>

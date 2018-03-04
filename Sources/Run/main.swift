@@ -48,7 +48,7 @@ drop.get("database") { request in
 /*
  The environment affects Config and Logging. The environment is development by default. To change it, pass the --env= flag as an argument.
  */
-let message = "You are currently running on" + drop.config.environment.description.uppercased()
+let message = "You are currently running on " + drop.config.environment.description.uppercased()
 print(message)
 
 try drop.run()
