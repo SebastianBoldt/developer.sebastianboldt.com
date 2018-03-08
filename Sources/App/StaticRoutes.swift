@@ -17,7 +17,7 @@ class StaticRoutes: RouteCollection, ViewRenderProvider {
     
     func build(_ builder: RouteBuilder) throws {
         let staticPagesController = StaticPagesController(view: view)        
-        builder.get( handler: staticPagesController.showIndexPage)
+        builder.get(handler: staticPagesController.showIndexPage)
         builder.get("developer" ,handler: staticPagesController.showDeveloperPage)
         builder.get("music" ,handler: staticPagesController.showMusicPage)
         

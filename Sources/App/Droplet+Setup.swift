@@ -12,10 +12,7 @@ import AuthProvider
 
 public extension Droplet {
     public func setupRoutes() throws {
-        let staticRoutes = StaticRoutes(view: view)
-        let skillRoutes = APIRoutes(view: view)
-        
+        let staticRoutes = StaticRoutes(view: view)        
         try collection(staticRoutes)
-        try collection(skillRoutes)
     }
 }
