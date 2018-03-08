@@ -24,11 +24,7 @@ extension Config {
     /// Add all models that should have their
     /// schemas prepared before the app boots
     private func setupPreparations() throws {
-        
-        preparations.append(Skill.self)
-        preparations.append(User.self)
-        preparations.append(AccessToken.self)
-    
+        //preparations.append(Skill.self)
     }
     
     private func setupGlobalMiddleWare() {

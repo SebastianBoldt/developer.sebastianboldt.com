@@ -36,7 +36,7 @@
             <!-- Put this into a separate model that can be modified using a custom API -->
             <div class="skills">
                 #loop(skills, "skill") {
-                    <span> #(skill.description) </span>
+                    <span class="tag"> #(skill) </span>
                 }
             </div>
 
@@ -44,6 +44,7 @@
 
             <div class="blog">
                 <h4> blog </h4>
+                <p> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-the-basics-of-iglistkit-in-10-minutes-3b9ce8a2632b"> Learn and Master the Basics of IGListKit in 10 Minutes </a> </p>
                 <p> <a href="https://medium.com/ios-os-x-development/learn-and-master-%EF%B8%8F-the-basics-of-rxswift-in-10-minutes-818ea6e0a05b"> Learn and Master the Basics of RxSwift in 10 Minutes </a> </p>
                 <p> <a href="https://medium.com/ios-os-x-development/my-first-cocoapod-is-here-jelly-1-0-71fefa3be0f4">My first Cocoapod is here  — Jelly 1.0 </a></p>
                 <p> <a href="https://medium.com/ios-os-x-development/ios-code-signing-provisioning-in-a-nutshell-d5b247760bef">iOS Code Signing and Provisioning in a Nutshell </a></p>
@@ -88,7 +89,7 @@
             </div>
 
             <div class="footer">
-                made in hamburg by sebastian boldt ©2017 - written in Swift using Vapor 2.0
+                made in hamburg by sebastian boldt ©2018 - written in Swift using Vapor 2.0
             </div>
 
         </div>
