@@ -33,23 +33,5 @@ try config.setup()
 let drop = try Droplet(config)
 try drop.setupRoutes()
 
-
-// Add custom Route for dataBases
-
-drop.get("database") { request in
-    if let db = drop.database?.driver as? PostgreSQLDriver.Driver {
-        let version = try db.raw("SELECT version()")
-        return JSON(node: version)
-    } else {
-        return "No db connection established, please ask your administrator"
-    }
-}
-
-/*
- The environment affects Config and Logging. The environment is development by default. To change it, pass the --env= flag as an argument.
- */
-let message = "You are currently running on " + drop.config.environment.description.uppercased()
-print(message)
-
 try drop.run()
 
