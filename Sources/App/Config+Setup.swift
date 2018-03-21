@@ -1,7 +1,6 @@
 import FluentProvider
 import LeafProvider
 import AuthProvider
-import PostgreSQLProvider
 
 extension Config {
     public func setup() throws {

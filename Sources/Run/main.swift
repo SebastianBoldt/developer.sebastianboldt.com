@@ -1,7 +1,6 @@
 import App
 import Vapor
 import LeafProvider
-import PostgreSQLDriver
 import AuthProvider
 
 /// We have isolated all of our App's logic into
