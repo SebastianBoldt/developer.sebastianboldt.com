@@ -32,4 +32,8 @@ public final class StaticPagesController: ViewRenderProvider {
     public func showDeveloperPage(_ req: Request) throws -> ResponseRepresentable {
         return try view.make("developer", ["skills": Constants.Seeds.skills])
     }
+    
+    public func showPrivacyPage(_ req: Request) throws -> ResponseRepresentable {
+        return try view.make("privacy")
+    }
 }

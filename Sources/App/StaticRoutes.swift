@@ -20,7 +20,7 @@ class StaticRoutes: RouteCollection, ViewRenderProvider {
         builder.get(handler: staticPagesController.showIndexPage)
         builder.get("developer" ,handler: staticPagesController.showDeveloperPage)
         builder.get("music" ,handler: staticPagesController.showMusicPage)
-        
+        builder.get("privacy", handler: staticPagesController.showPrivacyPage)
         // A Web-Admin area will come later, currently we are just using the api to change the Website
         //builder.get("admin", handler: authController.showLoginPage)
     }

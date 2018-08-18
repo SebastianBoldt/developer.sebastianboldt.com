@@ -14,22 +14,7 @@ public struct Constants {
     }
     
     public struct Seeds {
-        public static let skills = ["Mobile Development",
-                           "iOS",
-                           "Swift",
-                           "Objective-C",
-                           "Software Engineering",
-                           "Multithreaded Programming",
-                           "Xcode",
-                           "Code Signing and Provisioning",
-                           "Cocoapods",
-                           "Carthage",
-                           "Fastlane",
-                           "Git",
-                           "Gitflow Workflow",
-                           "RxSwift",
-                           "Realm",
-                           "Vapor"]
+        public static let skills = ["Mobile Development", "iOS", "Swift", "Objective-C", "Software Engineering", "Multithreaded Programming", "Xcode Professional", "GoF - Gang of Four Design Patterns", "Code Signing and Provisioning", "Cocoapods", "Carthage", "Fastlane", "Git", "Gitflow Workflow", "RxSwift", "MVC / MVVM / VIPER", "Unit & UI Testing", "Continuous Integration", "Realm", "Vapor", "Server-side Swift"]
         
     }
 }
