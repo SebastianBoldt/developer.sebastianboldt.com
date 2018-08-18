@@ -1,1 +1,1 @@
-web: Run --env=production --workdir=./ --config:servers.default.port=$PORT
+web: Run --env=production --workdir=./ --config:servers.default.port=$PORT --config:postgresql.url=$DATABASE_URL

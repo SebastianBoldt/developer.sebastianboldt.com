@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="/styles/styles.css">
         <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
         <script>
             window.sr = ScrollReveal();
         </script>
@@ -19,15 +21,15 @@
                 <h2 class="main-header">sebastian boldt</h2>
 
                 <ul class="social-buttons">
-                    <li> <a href="https://github.com/SebastianBoldt"> github </a> </li>
-                    <li> - </li>
-                    <li> <a href="https://www.linkedin.com/in/sebastian-boldt-9b465261/"> linkedIn </a> </li>
-                    <li> - </li>
-                    <li> <a href="https://www.xing.com/profile/Sebastian_Boldt8"> xing </a> </li>
-                    <li> - </li>
-                    <li> <a href="https://stackoverflow.com/users/1448340/sebastian-boldt"> stackoverflow </a> </li>
+                <li> <a href="https://github.com/SebastianBoldt"><i class="fab fa-github fa-lg"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/sebastian-boldt-9b465261/"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                <li> <a href="https://www.xing.com/profile/Sebastian_Boldt8"><i class="fab fa-xing fa-lg"></i></a></li>
+                <li> <a href="https://stackoverflow.com/users/1448340/sebastian-boldt"><i class="fab fa-stack-overflow fa-lg"></i></a></li>
+                <li> <a href="https://medium.com/@sebastianbo"><i class="fab fa-medium fa-lg"></i></a></li>
+                <li> <a href="https://twitter.com/SebastianBoldt"><i class="fab fa-twitter fa-lg"></i></a></li>
+                <li> <a href="https://www.instagram.com/sebastianboldt/"><i class="fab fa-instagram fa-lg"></i></a></li>
                 </ul>
-
+                <div class="separator"></div>
                 <div>
                     I am a web and mobile software architect and developer specializing in iOS. Passionate about creating awesome user experiences, designing beautiful user interfaces, and writing maintainable, structured, and best-practice orientated code. Continuously trying to improve skills and learn new technologies.
                 </div>

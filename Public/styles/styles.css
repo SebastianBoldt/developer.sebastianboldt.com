@@ -1,8 +1,11 @@
 body {
-    color: #777
+    color: #777;
 }
 
-a, a:hover {
+a {
+    color: #CCC;
+}
+a:hover {
     color: #f34246;
 }
 
@@ -87,11 +90,13 @@ h2,h3,h4 {
 .social-buttons {
     list-style-type: none;
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 
 .social-buttons li {
     display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .blog p a {
@@ -100,7 +105,7 @@ h2,h3,h4 {
 }
 
 .blog p a:hover {
-    color: #AAA;
+    color: #f34246;
 }
 
 .blog p, .education p {
