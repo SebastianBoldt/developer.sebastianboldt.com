@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sebastian Boldt - Software Developer and Musician</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/skeleton.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script>
+            window.sr = ScrollReveal();
+        </script>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="header">
+                <h3 class="main-header"> hello world.</h3>
+
+                <ul class="social-buttons">
+                <li> <a href="https://github.com/SebastianBoldt"><i class="fab fa-github fa-lg"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/sebastian-boldt-9b465261/"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                <li> <a href="https://www.xing.com/profile/Sebastian_Boldt8"><i class="fab fa-xing fa-lg"></i></a></li>
+                <li> <a href="https://stackoverflow.com/users/1448340/sebastian-boldt"><i class="fab fa-stack-overflow fa-lg"></i></a></li>
+                <li> <a href="https://medium.com/@sebastianbo"><i class="fab fa-medium fa-lg"></i></a></li>
+                <li> <a href="https://twitter.com/SebastianBoldt"><i class="fab fa-twitter fa-lg"></i></a></li>
+                <li> <a href="https://www.instagram.com/sebastianboldt/"><i class="fab fa-instagram fa-lg"></i></a></li>
+                <li> <a href="https://soundcloud.com/sebastian_boldt/"><i class="fas fa-music"></i></a></li>
+                </ul>
+
+                <div class="separator"></div>
+                <div style="margin-top:3em">
+                    Hi, my name is Sebastian Boldt.
+                    I am a web and mobile software developer, dj and producer based in Hamburg .
+                    I have a passion for pizza and movies . I love skateboarding, creativity and electronic music.
+                </div>
+            </div>
+
+
+            <div class="destiny row">
+                <div style="text-align: center" class= "six columns"> <a href="/developer"> I write code. </a>  </div>
+                <div style="text-align: center" class= "six columns"> <a href="/music"> I make music. </a> </div>
+            </div>
+
+            <div class="footer">written in Swift using Vapor 2.0
+            - <a href="/privacy" style="color:gray">privacy</a>
+            </div>
+
+        </div>
+
+        <!-- make reveal calls last -->
+        <script>
+            sr.reveal('.main-header');
+        </script>
+
+    </body>
+</html>
