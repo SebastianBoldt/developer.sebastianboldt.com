@@ -1,5 +1,6 @@
 body {
     color: #777;
+    background-color: #222;
 }
 
 a {
@@ -11,7 +12,9 @@ a:hover {
 
 h2,h3,h4 {
     text-align: center;
-    color: #CCC;
+    background-image:linear-gradient(90deg,#f02123,#f34246);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 30px;
 }
 
@@ -71,8 +74,8 @@ h2,h3,h4 {
     left:0px;
     bottom:0px;
     width:100%;
-    background:#CCC;
-    color:#777;
+    background:#f34246;
+    color:white;
     text-align: center;
     padding-top:8px;
     font-size: 10px;
