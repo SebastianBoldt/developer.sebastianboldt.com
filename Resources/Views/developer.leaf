@@ -29,7 +29,7 @@
                 </ul>
                 <div class="separator"></div>
                 <div>
-                    I am a web and mobile software architect and developer specializing in iOS. Passionate about creating awesome user experiences, designing beautiful user interfaces, and writing maintainable, structured, and best-practice orientated code. Continuously trying to improve skills and learn new technologies.
+                    I am a mobile software architect and developer specializing in iOS. Passionate about creating awesome user experiences, designing beautiful user interfaces, and writing maintainable, structured, and best-practice orientated code. Continuously trying to improve skills and learn new technologies.
                 </div>
             </div>
 
@@ -86,10 +86,10 @@
                 <h4> education </h4>
                 <p> Multimedia Engineering - Master's degree @ Hochschule Wismar <p>
                 <p> Multimedia Engineering - Bachelor's degree @ Hochschule Wismar <p>
-                <p id="edu-description"> Multimedia Engineering deals with the basics of microprocessor technology and electronics, image processing and computer graphics , audio and voice technologies, system and hardware dependent programming, networking and communications technology and application- and web-programming. </p>
+                <p id="edu-description"> Multimedia Engineering deals with the basics of microprocessor technology and electronics, image processing and computer graphics, audio and voice technologies, system and hardware dependent programming, networking and communications technology and application- and web-programming. </p>
             </div>
 
-<div class="footer">written in Swift using Vapor 2.0
+<div class="footer">written in Swift using Vapor 3.0
 - <a href="/privacy">privacy</a>
 </div>
 
