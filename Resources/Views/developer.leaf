@@ -6,10 +6,8 @@
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/skeleton.css">
         <link rel="stylesheet" href="styles/styles.css">
-        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
-
+        <script src="/fontawesome-5.2.0.js"></script>
+        <script src="/scrollreveal-4.0.0.js"></script>
         <script>
             window.sr = ScrollReveal();
         </script>
@@ -92,7 +90,7 @@
             </div>
 
 <div class="footer">written in Swift using Vapor 2.0
-- <a href="/privacy" style="color:gray">privacy</a>
+- <a href="/privacy">privacy</a>
 </div>
 
         </div>

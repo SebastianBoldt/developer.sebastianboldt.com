@@ -1,18 +1,24 @@
+@font-face {
+    font-family: 'Powerline';
+    src: url('/Powerline.ttf'); 
+}
+
 body {
     color: #777;
-    background-color: #222;
+    background-color: #0C2B36;
 }
 
 a {
     color: #CCC;
 }
+
 a:hover {
-    color: #f34246;
+    color: #CA4840;
 }
 
 h2,h3,h4 {
     text-align: center;
-    background-image:linear-gradient(90deg,#f02123,#f34246);
+    background-image:linear-gradient(90deg,#CA4840,#CA4840);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 30px;
@@ -42,7 +48,7 @@ h2,h3,h4 {
 
 .work .three {
     background-color: white;
-    color: #f34246;
+    color: #408FCF;
     background-color: transparent;
     padding: 10px;
     text-align: right;
@@ -74,7 +80,7 @@ h2,h3,h4 {
     left:0px;
     bottom:0px;
     width:100%;
-    background:#f34246;
+    background:#408FCF;
     color:white;
     text-align: center;
     padding-top:8px;
@@ -108,7 +114,7 @@ h2,h3,h4 {
 }
 
 .blog p a:hover {
-    color: #f34246;
+    color: #408FCF;
 }
 
 .blog p, .education p {
@@ -118,7 +124,7 @@ h2,h3,h4 {
 
 .separator {
     height: 1px;
-    background-color: #CCC;
+    background-color: #5C6E74;
     margin: 3em;
     align: center;
     text-align: center;
@@ -129,8 +135,8 @@ h2,h3,h4 {
     margin-right: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
-    border: 1px solid #f34246;
-    color: #f34246;
+    border: 1px solid #408FCF;
+    color: #408FCF;
     background-color: transparent;
     padding: 10px;
     display: inline-block;

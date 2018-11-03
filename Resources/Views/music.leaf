@@ -54,7 +54,7 @@
 
 
 <div class="footer">written in Swift using Vapor 2.0
-- <a href="/privacy" style="color:gray">privacy</a>
+- <a href="/privacy">privacy</a>
 </div>
 
         </div>
