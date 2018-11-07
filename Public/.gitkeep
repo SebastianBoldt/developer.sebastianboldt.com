@@ -1,0 +1,21 @@
+{
+
+"name": "Dialogic VIVR - Tourism",
+
+"short_name": "VIVR - Tourism",
+
+"start_url": "index.html",
+
+"display": "standalone",
+
+"icons": [{
+
+"src": "assets/images/logo-pwa.png",
+
+"sizes": "192x192",
+
+"type": "image/png"
+
+}]
+
+}
