@@ -18,8 +18,8 @@
         <div class="container">
 
             <div class="header">
+                <img src="memoji.png" alt="Sebastian Boldt" height="200" width="200">
                 <h2 class="main-header">sebastian boldt</h2>
-
                 <ul class="social-buttons">
                 <li> <a href="https://github.com/SebastianBoldt"><i class="fab fa-github fa-lg"></i></a></li>
                 <li> <a href="https://www.linkedin.com/in/sebastian-boldt-9b465261/"><i class="fab fa-linkedin fa-lg"></i></a></li>
@@ -31,7 +31,7 @@
                 </ul>
                 <div class="separator"></div>
                 <div>
-                    I am a mobile software architect and developer specializing in iOS. Passionate about creating awesome user experiences, designing beautiful user interfaces, and writing maintainable, structured, and best-practice orientated code. Continuously trying to improve skills and learn new technologies.
+                    I am a mobile software architect and developer specializing in iOS. Passionate about creating awesome user experiences, designing beautiful api and user interfaces, and writing maintainable, structured, and best-practice orientated code. Continuously trying to improve skills and learn new technologies.
                 </div>
             </div>
 
@@ -42,10 +42,12 @@
                 }
             </div>
 
+            
             <div class="separator"></div>
 
             <div class="blog">
                 <h4> blog </h4>
+                <p> <a href="<p> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-the-basics-of-combine-in-5-minutes-639421268219"> Learn & Master ⚔️ the Basics of Combine in 5 Minutes </a> </p>
                 <p> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-ios-remote-push-notifications-in-2018-in-under-10-minutes-825ca6bee092"> Learn & Master iOS Remote Push Notifications in 10 Minutes </a> </p>
                 <p> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-the-basics-of-iglistkit-in-10-minutes-3b9ce8a2632b"> Learn & Master the Basics of IGListKit in 10 Minutes </a> </p>
                 <p> <a href="https://medium.com/ios-os-x-development/learn-and-master-%EF%B8%8F-the-basics-of-rxswift-in-10-minutes-818ea6e0a05b"> Learn & Master the Basics of RxSwift in 10 Minutes </a> </p>
@@ -54,6 +56,16 @@
                 <p> <a href="https://medium.com/ios-os-x-development/my-ios-development-toolkit-2016-ba7601b68085">My iOS Development Toolkit 2018 </a></p>
                 <p> <a href="https://medium.com/ios-os-x-development/swift-optionals-78dafaa53f3">Swift! Optionals? </a></p>
 
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="opensource">
+                <h4> open source </h4>
+                <p> <a href="https://github.com/SebastianBoldt/Jelly">
+                    <b>Jelly</b> - a library for animated, non-interactive & interactive viewcontroller  transitions and presentations with the focus on a simple and yet flexible API.
+                    </a>
+                </p>
             </div>
 
             <div class="separator"></div>

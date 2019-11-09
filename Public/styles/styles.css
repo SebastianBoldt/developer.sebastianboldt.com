@@ -108,16 +108,16 @@ h2,h3,h4 {
     padding-right: 5px;
 }
 
-.blog p a {
+.blog p a, .opensource p a {
     text-decoration: none;
     color: #777;
 }
 
-.blog p a:hover {
+.blog p a:hover, .opensource p a:hover {
     color: #408FCF;
 }
 
-.blog p, .education p {
+.blog p, .education p, .opensource p {
     margin: 0px;
     text-align: center;
 }
