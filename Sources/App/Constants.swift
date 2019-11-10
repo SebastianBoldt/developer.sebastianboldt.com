@@ -27,6 +27,8 @@ public struct Constants {
                                     "Code Signing and Provisioning",
                                     "Cocoapods",
                                     "Carthage",
+                                    "Swift Package Manager",
+                                    "Catalyst",
                                     "Fastlane",
                                     "Git",
                                     "Gitflow Workflow",
