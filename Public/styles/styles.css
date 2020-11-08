@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Powerline';
-    src: url('/Powerline.ttf'); 
+    font-family: 'SFPro';
+    src: url('/SFPro.ttf'); 
 }
 
 body {
-    color: #777;
-    background-color: #0C2B36;
+    color: #CCC;
+    background-color: #2C2C2C;
 }
 
 a {
@@ -13,24 +13,15 @@ a {
 }
 
 a:hover {
-    color: #CA4840;
+    color: #FE375E;
 }
 
 h2,h3,h4 {
     text-align: center;
-    background-image:linear-gradient(90deg,#CA4840,#CA4840);
+    background-image:linear-gradient(60deg,#FE375E,#FFD607);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 30px;
-}
-
-.loginform {
-    text-align:center;
-    display: inline-block;
-}
-
-.loginform .row {
-    width: 300px;
 }
 
 #edu-description {
@@ -48,7 +39,7 @@ h2,h3,h4 {
 
 .work .three {
     background-color: white;
-    color: #408FCF;
+    color: #0983FF;
     background-color: transparent;
     padding: 10px;
     text-align: right;
@@ -80,7 +71,7 @@ h2,h3,h4 {
     left:0px;
     bottom:0px;
     width:100%;
-    background:#408FCF;
+    background:#0983FF;
     color:white;
     text-align: center;
     padding-top:8px;
@@ -110,11 +101,11 @@ h2,h3,h4 {
 
 .blog p a, .opensource p a {
     text-decoration: none;
-    color: #777;
+    color: #CCC;
 }
 
 .blog p a:hover, .opensource p a:hover {
-    color: #408FCF;
+    color: #0983FF;
 }
 
 .blog p, .education p, .opensource p {
@@ -135,8 +126,8 @@ h2,h3,h4 {
     margin-right: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
-    border: 1px solid #408FCF;
-    color: #408FCF;
+    border: 1px solid #0983FF;
+    color: #FFF;
     background-color: transparent;
     padding: 10px;
     display: inline-block;

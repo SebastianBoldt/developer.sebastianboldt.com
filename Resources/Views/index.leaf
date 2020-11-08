@@ -19,7 +19,7 @@
 
             <div class="header">
                 <img src="memoji.png" alt="Sebastian Boldt" height="200" width="200">
-                <h3 class="main-header"> $ hello world</h3>
+                <h3 class="main-header"> hello world</h3>
 
                 <ul class="social-buttons">
                     <li> <a href="https://github.com/SebastianBoldt"><i class="fab fa-github fa-lg"></i></a></li>
@@ -29,7 +29,7 @@
                     <li> <a href="https://medium.com/@sebastianbo"><i class="fab fa-medium fa-lg"></i></a></li>
                     <li> <a href="https://twitter.com/SebastianBoldt"><i class="fab fa-twitter fa-lg"></i></a></li>
                     <li> <a href="https://www.instagram.com/sebastianboldt/"><i class="fab fa-instagram fa-lg"></i></a></li>
-                    <li> <a href="https://soundcloud.com/sebastian_boldt/"><i class="fas fa-music"></i></a></li>
+                                        <li> <a href="https://open.spotify.com/artist/10m1VL1DyqBfIJw54rOefh"><i class="fab fa-spotify fa-lg"></i></a></li>
                 </ul>
 
                 <div class="separator"></div>

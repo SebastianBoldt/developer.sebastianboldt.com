@@ -42,6 +42,25 @@
                 }
             </div>
 
+            <div class="separator"></div>
+
+            <div class="opensource">
+                <h4> projects </h4>
+                <p> <a href="https://apps.apple.com/us/app/habitbe-weekly-habit-tracker/id1527811684">
+                    <b>HabitBe</b> - HabitBe is the perfect lightweight weekly Habit Tracker with no frills.
+                    </a>
+                </p>
+            </div>
+            
+            <div class="separator"></div>
+
+            <div class="opensource">
+                <h4> open source </h4>
+                <p> <a href="https://github.com/SebastianBoldt/Jelly">
+                    <b>Jelly</b> - a library for animated, non-interactive & interactive viewcontroller  transitions and presentations with the focus on a simple and yet flexible API.
+                    </a>
+                </p>
+            </div>
             
             <div class="separator"></div>
 
@@ -57,17 +76,7 @@
                 <p> <a href="https://medium.com/ios-os-x-development/swift-optionals-78dafaa53f3">Swift! Optionals? </a></p>
 
             </div>
-
-            <div class="separator"></div>
-
-            <div class="opensource">
-                <h4> open source </h4>
-                <p> <a href="https://github.com/SebastianBoldt/Jelly">
-                    <b>Jelly</b> - a library for animated, non-interactive & interactive viewcontroller  transitions and presentations with the focus on a simple and yet flexible API.
-                    </a>
-                </p>
-            </div>
-
+            
             <div class="separator"></div>
 
             <div class="work">
