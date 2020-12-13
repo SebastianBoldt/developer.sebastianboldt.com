@@ -165,6 +165,7 @@
                             <span class="tag"> MapKit </span>
                             <span class="tag"> WidgetKit </span>
                             <span class="tag"> Core Animation </span>
+                            <span class="tag"> PromiseKit </span>
                             <span class="tag"> Fastlane </span>
                             <span class="tag"> Quick </span>
                             <span class="tag"> Nimble </span>
