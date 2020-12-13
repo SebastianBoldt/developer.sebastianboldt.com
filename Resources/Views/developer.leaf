@@ -44,20 +44,73 @@
 
             <div class="separator"></div>
 
-            <div class="opensource">
+            <div class="opensource" style="text-align: left">
                 <h4> projects </h4>
-                <p> <a href="https://apps.apple.com/us/app/habitbe-weekly-habit-tracker/id1527811684">
-                        <b>HabitBe</b> - HabitBe is the perfect lightweight weekly Habit Tracker with no frills.
-                    </a>
-                </p>
-                <p> <a href="https://github.com/SebastianBoldt/Jelly">
-                    <b>Jelly</b> - a library for animated, non-interactive & interactive viewcontroller  transitions and presentations with the focus on a simple and yet flexible API.
-                    </a>
-                </p>
-                <p> <a href="https://github.com/SebastianBoldt/Soundrocket">
-                    <b>Soundrocket</b> - A unofficial SoundCloud® client for iOS
-                    </a>
-                </p>
+                <div class="row">
+                    <div class="three columns">
+                        <img src="HabitBe.png" alt="HabitBe" height="100" width="100">
+                    </div>
+                    <div class="nine columns">
+                        <a href="https://apps.apple.com/us/app/habitbe-weekly-habit-tracker/id1527811684">
+                            <b>HabitBe</b>
+                        </a>
+                        
+                        <p style="text-align: left">
+                           HabitBe is the perfect lightweight
+                           weekly Habit Tracker with no frills.
+                        </p>
+                        
+                        <div class="skills">
+                            <span class="tag"> SwiftUI </span>
+                            <span class="tag"> CoreData </span>
+                            <span class="tag"> CloudKit </span>
+                            <span class="tag"> Combine </span>
+                            <span class="tag"> Widgets </span>
+                            <span class="tag"> Universal App </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="three columns">
+                        <img src="Jelly.png" alt="Jelly" height="100" width="100">
+                    </div>
+                    <div class="nine columns">
+                        <a href="https://github.com/SebastianBoldt/Jelly">
+                            <b>Jelly</b>
+                        </a>
+                        
+                        <p style="text-align: left">
+                          A library for animated, non-interactive & interactive viewcontroller  transitions and presentations with the focus on a simple and yet flexible API.
+                        </p>
+                        
+                        <div class="skills">
+                            <span class="tag"> UIKit </span>
+                            <span class="tag"> Interface Design </span>
+                            <span class="tag"> Core Animation </span>
+                            <span class="tag"> Cocoapods </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="three columns">
+                        <img src="Soundrocket.png" alt="Soundrocket" height="100" width="100">
+                    </div>
+                    <div class="nine columns">
+                        <a href="https://github.com/SebastianBoldt/Soundrocket">
+                            <b>Soundrocket </b>
+                        </a>
+                        
+                        <p style="text-align: left"> This is my first app that made it into the Appstore in 2015. Since Soundcloud didn't support the connected API some months later, I quit maintaining the project but made it open source </p>
+                        
+                        <div class="skills">
+                            <span class="tag"> Objective-C </span>
+                            <span class="tag"> UIKit </span>
+                            <span class="tag"> RESTful </span>
+                    </div>
+                    </div>
+                </div>
             </div>
             
             <div class="separator"></div>
@@ -89,11 +142,11 @@
                 </div>
                 <div class="row">
                     <div class="three columns"> 08/2013 - 10/2014 </div>
-                    <div class="nine columns"> Software Developer (C++ / QT) @ IPT Wismar </div>
+                    <div class="nine columns"> Software Developer (C++ / QT / iOS / Android) @ IPT Wismar </div>
                 </div>
                 <div class="row">
                     <div class="three columns"> 03/2012 - 08/2012 </div>
-                    <div class="nine columns"> Internship (Rails) @ BringWasMit </div>
+                    <div class="nine columns"> Internship (Ruby on Rails & iOS) @ BringWasMit </div>
                 </div>
                 <div class="row">
                     <div class="three columns"> 01/2012 - 06/2012 </div>
