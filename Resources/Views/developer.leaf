@@ -55,29 +55,35 @@
                         <a href="https://apps.apple.com/us/app/habitbe-weekly-habit-tracker/id1527811684">
                             <b>HabitBe</b>
                         </a>
-                        
+
                         <div>
-                            <span class="app-tag"> App </span>
                             <span class="active-tag"> Active </span>
                             <span class="closed-source"> Closed Source </span>
+                            <span class="app-tag"> App </span>
                         </div>
-                        
+
                         <p style="text-align: left; padding-bottom: 16px;">
                            HabitBe is the perfect lightweight
                            weekly Habit Tracker with no frills.
+                           Developed with a reactive MVVM Pattern using brand new technologies like SwiftUI and Combine.
                         </p>
-                        
+
                         <div class="skills">
+                            <span class="tag"> Swift </span>
                             <span class="tag"> SwiftUI </span>
                             <span class="tag"> CoreData </span>
                             <span class="tag"> CloudKit </span>
+                            <span class="tag"> ClockKit </span>
+                            <span class="tag"> WatchKit </span>
+                            <span class="tag"> StoreKit </span>
+                            <span class="tag"> WidgetKit </span>
                             <span class="tag"> Combine </span>
-                            <span class="tag"> Widgets </span>
-                            <span class="tag"> Universal App </span>
+                            <span class="tag"> iPad support </span>
+                            <span class="tag"> Xcode Server </span>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="three columns">
                         <img src="Jelly.png" alt="Jelly" height="100" width="100">
@@ -87,24 +93,24 @@
                             <b>Jelly</b>
                         </a>
                         <div>
-                            <span class="framework-tag"> Framework </span>
                             <span class="active-tag"> Active </span>
                             <span class="open-source"> Open Source </span>
+                            <span class="framework-tag"> Framework </span>
                         </div>
-                        
+
                         <p style="text-align: left; padding-bottom: 16px;">
                           A library for animated, non-interactive & interactive viewcontroller  transitions and presentations with the focus on a simple and yet flexible API.
                         </p>
-                        
+
                         <div class="skills">
+                            <span class="tag"> Swift </span>
                             <span class="tag"> UIKit </span>
-                            <span class="tag"> Interface Design </span>
                             <span class="tag"> Core Animation </span>
                             <span class="tag"> Cocoapods </span>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="three columns">
                         <img src="Soundrocket.png" alt="Soundrocket" height="100" width="100">
@@ -113,25 +119,25 @@
                         <a href="https://github.com/SebastianBoldt/Soundrocket">
                             <b>Soundrocket</b>
                         </a>
-                        
+
                         <div>
-                            <span class="app-tag"> App </span>
                             <span class="inactive-tag"> Inactive </span>
                             <span class="open-source"> Open Source </span>
+                            <span class="app-tag"> App </span>
                         </div>
-                        
+
                         <p style="text-align: left; padding-bottom: 16px;">
                             This is my first app that made it into the Appstore in 2015.
-                            Since Soundcloud didn't support the connected API some months later, I quit maintaining the project but made it open source </p>
-                        
+                            Since Soundcloud didn't support the connected API some months later, I quit maintaining the project but made it open source.
+                        </p>
                         <div class="skills">
                             <span class="tag"> Objective-C </span>
                             <span class="tag"> UIKit </span>
-                            <span class="tag"> RESTful </span>
+                            <span class="tag"> StoreKit </span>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="three columns">
                         <img src="immowelt.png" alt="Immowelt" height="100" width="100">
@@ -140,52 +146,67 @@
                         <a href="https://apps.apple.com/de/app/immowelt-immobiliensuche/id354119842">
                             <b>Immowelt </b>
                         </a>
-                        
+
                         <div>
-                            <span class="app-tag"> App </span>
                             <span class="active-tag"> Active </span>
                             <span class="closed-source"> Closed Source </span>
+                            <span class="app-tag"> App </span>
                         </div>
-                        
+
                         <p style="text-align: left; padding-bottom: 16px;">
-                            I have been working at Immowelt for almost 5 years and was and still am significantly involved in the redevelopment of the iOS app,
-                            from the UI to the persistence layer.
+                            I have been working at Immowelt for almost 5 years and I am significantly involved in the redevelopment of the iOS app,
+                            all the way from UI to the low level persistence or networking layers. At Immowelt, I am working with many teams from different departments and also learned a lot about the setup and structure of a big company.
                         </p>
-                        
+
                         <div class="skills">
                             <span class="tag"> Swift </span>
                             <span class="tag"> Realm </span>
                             <span class="tag"> UIKit </span>
+                            <span class="tag"> MapKit </span>
+                            <span class="tag"> WidgetKit </span>
+                            <span class="tag"> Core Animation </span>
+                            <span class="tag"> Fastlane </span>
+                            <span class="tag"> Quick </span>
+                            <span class="tag"> Nimble </span>
+                            <span class="tag"> KIF </span>
+                            <span class="tag"> Grand Central Dispatch </span>
+                            <span class="tag"> Swift Package Manager </span>
+                            <span class="tag"> Cocoapods </span>
+                            <span class="tag"> Carthage </span>
+                            <span class="tag"> Continous Integration</span>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="three columns">
                         <img src="fashionfreax.jpg" alt="Fashionfreax" height="100" width="100", style="border-radius: 20px;">
                     </div>
                     <div class="nine columns">
-                        <b>Fashionfreax (inactive)</b>
-                    
+                        <b>Fashionfreax</b>
+
                         <div>
-                            <span class="app-tag"> App </span>
                             <span class="inactive-tag"> Inactive </span>
                             <span class="closed-source"> Closed Source </span>
+                            <span class="app-tag"> App </span>
                         </div>
-                        
+
                         <p style="text-align: left; padding-bottom: 16px;">
                             I worked on the Fashionfreax app for 1.5 years, helping with everything from integrating payment service providers to programming complex UI elements.
                         </p>
-                        
+
                         <div class="skills">
                             <span class="tag"> Objective-C </span>
                             <span class="tag"> UIKit </span>
+                            <span class="tag"> Fastlane </span>
+                            <span class="tag"> StoreKit </span>
+                            <span class="tag"> Stripe </span>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div class="separator"></div>
 
             <div class="blog">
@@ -201,7 +222,7 @@
                         Because RxSwift and Combine have so much in common I thought it would be a great idea to adapt the things I know about RxSwift and use them to create something new. This is an article based on one of my most successful articles here on Medium (Learn and Master Rx-Swift). More than 140.000 Impressions so far. That’s Amazing, thank you so much.
                     </p>
                 </div>
-                
+
                 <div style="padding-bottom: 32px;">
                     <img src="push.png" alt="Push" height="100" style="border-radius: 10px">
                         <p class="blog-header"> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-ios-remote-push-notifications-in-2018-in-under-10-minutes-825ca6bee092"> Learn & Master iOS Remote Push Notifications in 10 Minutes </a>
@@ -214,7 +235,7 @@
                         </p>
                     </p>
                 </div>
-                
+
                 <div style="padding-bottom: 32px;">
                     <img src="iglistkit.png" alt="IGListKit" height="100" style="border-radius: 10px">
                         <p class="blog-header"> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-the-basics-of-iglistkit-in-10-minutes-3b9ce8a2632b"> Learn & Master the Basics of IGListKit in 10 Minutes </a>
@@ -226,7 +247,7 @@
                             Remote Push notifications enable developers to present information to their users outside the app and to redirect them to the app if necessary. Important events will arrive in the form of badges, sounds or banners. But be careful here, too many push notifications may lower the retention and deter your users. When and how push notifications are displayed should be well considered, inflationary and unimportant notifications can mean death for a good app.
                         </p>
                 </div>
-                
+
                 <div style="padding-bottom: 32px;">
                     <img src="rxswift.png" alt="Push" height="100" style="border-radius: 10px">
                         <p class="blog-header"> <a href="https://medium.com/ios-os-x-development/learn-and-master-%EF%B8%8F-the-basics-of-rxswift-in-10-minutes-818ea6e0a05b"> Learn & Master the Basics of RxSwift in 10 Minutes </a>
@@ -238,7 +259,7 @@
                             Every programmer should have heard of Rx. Whether it happened at the last developer conference or while reading a fresh blog article like this one 😎. It is almost impossible not to have heard of it, but what exactly is Reactive Programming?
                         </p>
                 </div>
-                
+
                 <div style="padding-bottom: 32px;">
                     <img src="jelly-banner.png" alt="Jelly" height="100" style="border-radius: 10px">
                         <p class="blog-header">
@@ -289,7 +310,7 @@
                         </p>
                 </div>
             </div>
-            
+
             <div class="separator"></div>
 
             <div class="work">

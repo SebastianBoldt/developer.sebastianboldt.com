@@ -143,13 +143,13 @@ h2,h3,h4 {
 
 .publishdate {
     font-size: 10px;
-    opacity: 0.5
+    opacity: 0.5;
     border-radius: 10px;
 }
 
 
 .active-tag {
-    font-size: 12px;
+    font-size:  12px;
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -157,23 +157,22 @@ h2,h3,h4 {
 }
 
 .framework-tag {
-    font-size: 12px;
+    font-size:  12px;
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #62D2FE;
 }
 
 .app-tag {
-    font-size: 12px;
+    font-size:  12px;
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #0983FF;
 }
 
 .inactive-tag {
-    font-size: 8px;
+    opacity: 0.5;
+    font-size: 12px;
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -181,17 +180,17 @@ h2,h3,h4 {
 }
 
 .closed-source {
-    font-size: 8px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: #FE9E06;
-}
-
-.open-source {
+    opacity: 0.5;
     font-size: 12px;
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #2FD157;
+}
+
+.open-source {
+    opacity: 0.5;
+    font-size:  12px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
