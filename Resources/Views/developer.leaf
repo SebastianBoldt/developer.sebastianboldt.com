@@ -29,7 +29,7 @@
                 <li> <a href="https://twitter.com/SebastianBoldt"><i class="fab fa-twitter fa-lg"></i></a></li>
                 <li> <a href="https://www.instagram.com/sebastianboldt/"><i class="fab fa-instagram fa-lg"></i></a></li>
                 </ul>
-                <p>iOS Developer since 2012<p>
+                <p style="opacity: 50%;"> iOS Developer since 2012 <p>
                 <div class="separator"></div>
                 <div>
                     I am a mobile software architect and developer specializing in iOS. Passionate about creating awesome user experiences, designing beautiful api and user interfaces, and writing maintainable, structured, and best-practice orientated code. Continuously trying to improve skills and learn new technologies.
@@ -56,7 +56,13 @@
                             <b>HabitBe</b>
                         </a>
                         
-                        <p style="text-align: left">
+                        <div>
+                            <span class="app-tag"> App </span>
+                            <span class="active-tag"> Active </span>
+                            <span class="closed-source"> Closed Source </span>
+                        </div>
+                        
+                        <p style="text-align: left; padding-bottom: 16px;">
                            HabitBe is the perfect lightweight
                            weekly Habit Tracker with no frills.
                         </p>
@@ -80,8 +86,13 @@
                         <a href="https://github.com/SebastianBoldt/Jelly">
                             <b>Jelly</b>
                         </a>
+                        <div>
+                            <span class="framework-tag"> Framework </span>
+                            <span class="active-tag"> Active </span>
+                            <span class="open-source"> Open Source </span>
+                        </div>
                         
-                        <p style="text-align: left">
+                        <p style="text-align: left; padding-bottom: 16px;">
                           A library for animated, non-interactive & interactive viewcontroller  transitions and presentations with the focus on a simple and yet flexible API.
                         </p>
                         
@@ -100,18 +111,79 @@
                     </div>
                     <div class="nine columns">
                         <a href="https://github.com/SebastianBoldt/Soundrocket">
-                            <b>Soundrocket </b>
+                            <b>Soundrocket</b>
                         </a>
                         
-                        <p style="text-align: left"> This is my first app that made it into the Appstore in 2015. Since Soundcloud didn't support the connected API some months later, I quit maintaining the project but made it open source </p>
+                        <div>
+                            <span class="app-tag"> App </span>
+                            <span class="inactive-tag"> Inactive </span>
+                            <span class="open-source"> Open Source </span>
+                        </div>
+                        
+                        <p style="text-align: left; padding-bottom: 16px;">
+                            This is my first app that made it into the Appstore in 2015.
+                            Since Soundcloud didn't support the connected API some months later, I quit maintaining the project but made it open source </p>
                         
                         <div class="skills">
                             <span class="tag"> Objective-C </span>
                             <span class="tag"> UIKit </span>
                             <span class="tag"> RESTful </span>
-                    </div>
+                        </div>
                     </div>
                 </div>
+                
+                <div class="row">
+                    <div class="three columns">
+                        <img src="immowelt.png" alt="Immowelt" height="100" width="100">
+                    </div>
+                    <div class="nine columns">
+                        <a href="https://apps.apple.com/de/app/immowelt-immobiliensuche/id354119842">
+                            <b>Immowelt </b>
+                        </a>
+                        
+                        <div>
+                            <span class="app-tag"> App </span>
+                            <span class="active-tag"> Active </span>
+                            <span class="closed-source"> Closed Source </span>
+                        </div>
+                        
+                        <p style="text-align: left; padding-bottom: 16px;">
+                            I have been working at Immowelt for almost 5 years and was and still am significantly involved in the redevelopment of the iOS app,
+                            from the UI to the persistence layer.
+                        </p>
+                        
+                        <div class="skills">
+                            <span class="tag"> Swift </span>
+                            <span class="tag"> Realm </span>
+                            <span class="tag"> UIKit </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="three columns">
+                        <img src="fashionfreax.jpg" alt="Fashionfreax" height="100" width="100", style="border-radius: 20px;">
+                    </div>
+                    <div class="nine columns">
+                        <b>Fashionfreax (inactive)</b>
+                    
+                        <div>
+                            <span class="app-tag"> App </span>
+                            <span class="inactive-tag"> Inactive </span>
+                            <span class="closed-source"> Closed Source </span>
+                        </div>
+                        
+                        <p style="text-align: left; padding-bottom: 16px;">
+                            I worked on the Fashionfreax app for 1.5 years, helping with everything from integrating payment service providers to programming complex UI elements.
+                        </p>
+                        
+                        <div class="skills">
+                            <span class="tag"> Objective-C </span>
+                            <span class="tag"> UIKit </span>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             
             <div class="separator"></div>
