@@ -245,7 +245,7 @@
                             Published on March 6, 2018
                         </p>
                         <p>
-                            Remote Push notifications enable developers to present information to their users outside the app and to redirect them to the app if necessary. Important events will arrive in the form of badges, sounds or banners. But be careful here, too many push notifications may lower the retention and deter your users. When and how push notifications are displayed should be well considered, inflationary and unimportant notifications can mean death for a good app.
+                            Anyone who has ever implemented dynamic lists in iOS will probably know that the official approach has some difficulties. Datastore and view layer have to be synchronized manually and during the update a certain order should be kept to avoid crashes. In addition, the classical approach is tempting to encapsulate the logic of the different cells in a large data source rather than separating them sensibly. To prevent these problems IGListKit was created. A framework developed by the Instagram team.
                         </p>
                 </div>
 
