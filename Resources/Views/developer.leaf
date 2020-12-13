@@ -117,15 +117,73 @@
 
             <div class="blog">
                 <h4> blog </h4>
-                <p> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-the-basics-of-combine-in-5-minutes-639421268219"> Learn & Master the Basics of Combine in 5 Minutes </a> </p>
-                <p> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-ios-remote-push-notifications-in-2018-in-under-10-minutes-825ca6bee092"> Learn & Master iOS Remote Push Notifications in 10 Minutes </a> </p>
-                <p> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-the-basics-of-iglistkit-in-10-minutes-3b9ce8a2632b"> Learn & Master the Basics of IGListKit in 10 Minutes </a> </p>
-                <p> <a href="https://medium.com/ios-os-x-development/learn-and-master-%EF%B8%8F-the-basics-of-rxswift-in-10-minutes-818ea6e0a05b"> Learn & Master the Basics of RxSwift in 10 Minutes </a> </p>
-                <p> <a href="https://medium.com/ios-os-x-development/my-first-cocoapod-is-here-jelly-1-0-71fefa3be0f4">My first Cocoapod is here  — Jelly 1.0 </a></p>
-                <p> <a href="https://medium.com/ios-os-x-development/ios-code-signing-provisioning-in-a-nutshell-d5b247760bef">iOS Code Signing and Provisioning in a Nutshell </a></p>
-                <p> <a href="https://medium.com/ios-os-x-development/my-ios-development-toolkit-2016-ba7601b68085">My iOS Development Toolkit 2018 </a></p>
-                <p> <a href="https://medium.com/ios-os-x-development/swift-optionals-78dafaa53f3">Swift! Optionals? </a></p>
+                <div style="padding-bottom: 32px;">
+                    <img src="combine.png" alt="Combine" height="100" style="border-radius: 10px">
+                    <p class="blog-header"> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-the-basics-of-combine-in-5-minutes-639421268219"> Learn & Master the Basics of Combine in 5 Minutes </a> </p>
+                    <p>
+                        Because RxSwift and Combine have so much in common I thought it would be a great idea to adapt the things I know about RxSwift and use them to create something new. This is an article based on one of my most successful articles here on Medium (Learn and Master Rx-Swift). More than 140.000 Impressions so far. That’s Amazing, thank you so much.
+                    </p>
+                </div>
+                
+                <div style="padding-bottom: 32px;">
+                    <img src="push.png" alt="Push" height="100" style="border-radius: 10px">
+                        <p class="blog-header"> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-ios-remote-push-notifications-in-2018-in-under-10-minutes-825ca6bee092"> Learn & Master iOS Remote Push Notifications in 10 Minutes </a>
+                        </p>
+                        Remote Push notifications enable developers to present information to their users outside the app and to redirect them to the app if necessary. Important events will arrive in the form of badges, sounds or banners. But be careful here, too many push notifications may lower the retention and deter your users. When and how push notifications are displayed should be well considered, inflationary and unimportant notifications can mean death for a good app.
+                    </p>
+                </div>
+                
+                <div style="padding-bottom: 32px;">
+                    <img src="iglistkit.png" alt="IGListKit" height="100" style="border-radius: 10px">
+                        <p class="blog-header"> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-the-basics-of-iglistkit-in-10-minutes-3b9ce8a2632b"> Learn & Master the Basics of IGListKit in 10 Minutes </a>
+                        </p>
+                        Remote Push notifications enable developers to present information to their users outside the app and to redirect them to the app if necessary. Important events will arrive in the form of badges, sounds or banners. But be careful here, too many push notifications may lower the retention and deter your users. When and how push notifications are displayed should be well considered, inflationary and unimportant notifications can mean death for a good app.
+                    </p>
+                </div>
+                
+                <div style="padding-bottom: 32px;">
+                    <img src="rxswift.png" alt="Push" height="100" style="border-radius: 10px">
+                        <p class="blog-header"> <a href="https://medium.com/ios-os-x-development/learn-and-master-%EF%B8%8F-the-basics-of-rxswift-in-10-minutes-818ea6e0a05b"> Learn & Master the Basics of RxSwift in 10 Minutes </a>
+                        </p>
+                        Every programmer should have heard of Rx. Whether it happened at the last developer conference or while reading a fresh blog article like this one 😎. It is almost impossible not to have heard of it, but what exactly is Reactive Programming?
+                    </p>
+                </div>
+                
+                <div style="padding-bottom: 32px;">
+                    <img src="jelly-banner.png" alt="Jelly" height="100" style="border-radius: 10px">
+                        <p class="blog-header">
+                            <a href="https://medium.com/ios-os-x-development/my-first-cocoapod-is-here-jelly-1-0-71fefa3be0f4">My first Cocoapod is here  — Jelly 1.0 </a>
+                        </p>
+                            Yay, my first Pod is available for everyone. Jelly 1.0, a Viewcontroller-Transition-Animation framework that is super easy to use. I always wanted to have a public Github repository other people can contribute to and I found myself writing custom Viewcontroller-Transition-Code over and over again. So wouldn’t it be a great idea to create an easy to use Pod for that?
+                    </p>
+                </div>
+                
+                <div style="padding-bottom: 32px;">
+                    <img src="signing.png" alt="Signing" height="100" style="border-radius: 10px">
+                        <p class="blog-header">
+                            <a href="https://medium.com/ios-os-x-development/ios-code-signing-provisioning-in-a-nutshell-d5b247760bef">iOS Code Signing and Provisioning in a Nutshell </a>
+                        </p>
+                            I am developing Apps for more than 3 years now and 1 thing that still annoys me is Code Signing and Provisioning in iOS. What are Signing Identities? Why do I need to create Provisioning Profiles and care about such things as a developer? If you don’t have any good answers for those questions and really don’t want to read through the Apple Docs, this hopefully is the article that exposes the whole process for you and for me as a reference in less than 5 Minutes.
+                    </p>
+                </div>
 
+                <div style="padding-bottom: 32px;">
+                    <img src="toolkit.jpeg" alt="Toolki" height="100" style="border-radius: 10px">
+                        <p class="blog-header">
+                            <a href="https://medium.com/ios-os-x-development/my-ios-development-toolkit-2016-ba7601b68085">My iOS Development Toolkit 2018 </a>
+                        </p>
+                            I am developing Apps for more than 3 years now and 1 thing that still annoys me is Code Signing and Provisioning in iOS. What are Signing Identities? Why do I need to create Provisioning Profiles and care about such things as a developer? If you don’t have any good answers for those questions and really don’t want to read through the Apple Docs, this hopefully is the article that exposes the whole process for you and for me as a reference in less than 5 Minutes.
+                    </p>
+                </div>
+                
+                <div style="padding-bottom: 32px;">
+                    <img src="optionals.png" alt="Optional" height="100" style="border-radius: 10px">
+                        <p class="blog-header">
+                            <a href="https://medium.com/ios-os-x-development/swift-optionals-78dafaa53f3">Swift! Optionals? </a>
+                        </p>
+                            If you are new to swift and to the concept of Optionals you may think that it's a little bit strange to have a special type for representing "something" or "nothing", but if you get the hang it comes really handy in a lot of situations.
+                    </p>
+                </div>
             </div>
             
             <div class="separator"></div>
