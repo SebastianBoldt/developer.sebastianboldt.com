@@ -78,6 +78,8 @@
                             <span class="tag"> StoreKit </span>
                             <span class="tag"> WidgetKit </span>
                             <span class="tag"> Combine </span>
+                            <span class="tag"> MVVM </span>
+                            <span class="tag"> Clean Code </span>
                             <span class="tag"> iPad support </span>
                             <span class="tag"> Xcode Server </span>
                         </div>
@@ -166,6 +168,8 @@
                             <span class="tag"> WidgetKit </span>
                             <span class="tag"> Core Animation </span>
                             <span class="tag"> PromiseKit </span>
+                            <span class="tag"> VIPER </span>
+                            <span class="tag"> Clean Code </span>
                             <span class="tag"> Fastlane </span>
                             <span class="tag"> Quick </span>
                             <span class="tag"> Nimble </span>
@@ -200,6 +204,7 @@
                             <span class="tag"> Objective-C </span>
                             <span class="tag"> UIKit </span>
                             <span class="tag"> Fastlane </span>
+                            <span class="tag"> MVC - Massive Viewcontroller </span>
                             <span class="tag"> StoreKit </span>
                             <span class="tag"> Stripe </span>
                         </div>
