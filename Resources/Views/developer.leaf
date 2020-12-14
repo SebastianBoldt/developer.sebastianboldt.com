@@ -307,7 +307,7 @@
                             Published on March 22, 2016
                         </p>
                         <p>
-                            I am developing Apps for more than 3 years now and 1 thing that still annoys me is Code Signing and Provisioning in iOS. What are Signing Identities? Why do I need to create Provisioning Profiles and care about such things as a developer? If you don’t have any good answers for those questions and really don’t want to read through the Apple Docs, this hopefully is the article that exposes the whole process for you and for me as a reference in less than 5 Minutes.
+                            This is a curated list of iOS Development Tools, Websites, Services and Frameworks I am currently using.
                         </p>
                 </div>
             </div>
