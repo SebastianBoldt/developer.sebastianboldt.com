@@ -20,6 +20,15 @@
             <div class="header">
                 <img src="memoji.png" alt="Sebastian Boldt" height="200" width="200">
                 <h2 class="main-header">sebastian boldt</h2>
+
+                <ul class="links">
+                    <li><a href="#skills"> skills </a> </li>
+                    <li><a href= "#projects"> projects </a></li>
+                    <li><a href= "#blog"> blog</a></li>
+                    <li><a href= "#work"> work experience</a></li>
+                    <li><a href= "#education"> education</a></li>
+                </ul>
+
                 <ul class="social-buttons">
                 <li> <a href="https://github.com/SebastianBoldt"><i class="fab fa-github fa-lg"></i></a></li>
                 <li> <a href="https://www.linkedin.com/in/sebastian-boldt-9b465261/"><i class="fab fa-linkedin fa-lg"></i></a></li>
@@ -31,7 +40,7 @@
                 </ul>
                 <p style="opacity: 50%;"> iOS Developer since 2012 <p>
                 <div class="separator"></div>
-                <div>
+                <div id="skills">
                     I am a mobile software architect and developer specializing in iOS. Passionate about creating awesome user experiences, designing beautiful api and user interfaces, and writing maintainable, structured, and best-practice orientated code. Continuously trying to improve skills and learn new technologies.
                 </div>
             </div>
@@ -45,7 +54,7 @@
 
             <div class="separator"></div>
 
-            <div class="opensource" style="text-align: left">
+            <div id="projects" class="opensource" style="text-align: left">
                 <h4> projects </h4>
                 <div class="row">
                     <div class="three columns">
@@ -215,8 +224,22 @@
 
             <div class="separator"></div>
 
-            <div class="blog">
+            <div class="blog" id="blog">
                 <h4> blog </h4>
+                <div style="padding-bottom: 32px;">
+                    <img src="asyncawaitbanner.png" alt="Async await" height="100" style="border-radius: 10px">
+                    <p class="blog-header"> <a href="https://medium.com/@sebastianbo/learn-and-master-%EF%B8%8F-the-basics-of-structured-concurrent-programming-in-swift-in-15-minutes-5fc700b0a77c"> Learn and Master ⚔️ the Basics of Structured Concurrent Programming in Swift in 15 Minutes
+ </a>
+                    </p>
+                    <p class="publishdate">
+                        Published on February 22, 2022
+                    </p>
+                    <p>
+                        WWDC 2021 has brought some exciting enhancements to Swift. One of the most interesting are the new mechanisms around async and await. If you are interested in this and don’t want to watch all the session videos to understand how the new toolset works, you are at the right place. I tried to extract the most important facts of all the new features in this article with easy to understand code examples. If you want to dive deeper I included a list of tutorials and references around this topic.
+
+                    </p>
+                </div>
+                
                 <div style="padding-bottom: 32px;">
                     <img src="combine.png" alt="Combine" height="100" style="border-radius: 10px">
                     <p class="blog-header"> <a href="https://medium.com/ios-os-x-development/learn-master-%EF%B8%8F-the-basics-of-combine-in-5-minutes-639421268219"> Learn & Master the Basics of Combine in 5 Minutes </a>
@@ -319,7 +342,7 @@
 
             <div class="separator"></div>
 
-            <div class="work">
+            <div class="work" id="work">
                 <h4> work experience </h4>
                 <div class="row">
                     <div class="three columns"> 04/2016 - today </div>
@@ -345,7 +368,7 @@
 
             <div class="separator"></div>
 
-            <div class="education">
+            <div class="education" id="education">
                 <h4> education </h4>
                 <p> Multimedia Engineering - Master's degree @ Hochschule Wismar <p>
                 <p> Multimedia Engineering - Bachelor's degree @ Hochschule Wismar <p>
